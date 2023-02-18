@@ -14,3 +14,14 @@ datasource db {
   provider = "sqlite"
   url      = "file:../db/dev.db"
 }
+
+model User {
+  id Int @default(autoincrement()) @id
+  name String
+  email String @unique
+  password String
+  refreshToken String?
+  role String
+  createdAt DateTime @default(now())
+  updatedAt DateTime @default(now())
+}
