@@ -1,0 +1,35 @@
+{
+  "name": "@next-nest-test/client",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "next": "13.1.6",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  },
+  "devDependencies": {
+    "eslint": "8.34.0",
+    "eslint-config-next": "13.1.6"
+  },
+  "description": "> TODO: description",
+  "author": "Kohki Shikata <kohki.shikata@gmail.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "lib/client.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "access": "public"
+  }
+}

@@ -1,0 +1,13 @@
+{
+    "name": "next-nest-test",
+    "private": true,
+    "workspaces": [
+        "packages/*"
+    ],
+    "scripts": {
+        "dev": "lerna run dev --parallel --stream --scope=@next-nest-test/{client,server}"
+    },
+    "devDependencies": {
+        "lerna": "^6.5.1"
+    }
+}
